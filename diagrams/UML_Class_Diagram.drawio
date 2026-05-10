@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="UML Classes - JavaFX Catalogue Demo" id="uml-class-catalogue">
-        <mxGraphModel dx="1668" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="2200" math="0" shadow="0">
+        <mxGraphModel dx="3002" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2150" pageHeight="2200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -11,7 +11,7 @@
                     <mxGeometry x="725" y="50" width="700" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="zone-model" value="&lt;b&gt;MODEL&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=14;fontStyle=1;align=center;spacingLeft=10;spacingTop=6;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="100" width="380" height="500" as="geometry"/>
+                    <mxGeometry x="-30" y="100" width="450" height="500" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-cat" value="CatalogueModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff7d6;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="60" y="140" width="340" height="160" as="geometry"/>
@@ -26,28 +26,28 @@
                     <mxGeometry y="74" width="340" height="86" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-info" value="ComponentInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff7d6;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="330" width="340" height="130" as="geometry"/>
+                    <mxGeometry x="-30" y="380" width="160" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-info-a" value="- nom : String&#xa;- description : String&#xa;- exempleCode : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;whiteSpace=wrap;html=1;fontSize=11;" parent="m-info" vertex="1">
-                    <mxGeometry y="26" width="340" height="50" as="geometry"/>
+                    <mxGeometry y="26" width="160" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-info-l" value="" style="line;strokeWidth=1;fillColor=none;spacingTop=-1;portConstraint=eastwest;strokeColor=inherit;" parent="m-info" vertex="1">
-                    <mxGeometry y="76" width="340" height="8" as="geometry"/>
+                    <mxGeometry y="76" width="160" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-info-m" value="+ getNom() : String&#xa;+ getDescription() : String&#xa;+ getExempleCode() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;whiteSpace=wrap;html=1;fontSize=11;" parent="m-info" vertex="1">
-                    <mxGeometry y="84" width="340" height="46" as="geometry"/>
+                    <mxGeometry y="84" width="160" height="46" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-cat-type" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&#xa;&lt;b&gt;CategoryType&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;startSize=36;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="470" width="340" height="120" as="geometry"/>
+                    <mxGeometry x="140" y="430" width="270" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-cat-type-v" value="BOUTONS, SAISIE, CHOIX, AFFICHAGE,&#xa;CONTENEURS, TABLEAUX, MENUS_DIALOGUES" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;whiteSpace=wrap;html=1;fontSize=11;" parent="m-cat-type" vertex="1">
-                    <mxGeometry y="36" width="340" height="40" as="geometry"/>
+                    <mxGeometry y="36" width="270" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-cat-type-l" value="" style="line;strokeWidth=1;fillColor=none;spacingTop=-1;portConstraint=eastwest;strokeColor=inherit;" parent="m-cat-type" vertex="1">
-                    <mxGeometry y="76" width="340" height="8" as="geometry"/>
+                    <mxGeometry y="76" width="270" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="m-cat-type-m" value="+ getLibelle() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;whiteSpace=wrap;html=1;fontSize=11;" parent="m-cat-type" vertex="1">
-                    <mxGeometry y="84" width="340" height="36" as="geometry"/>
+                    <mxGeometry y="84" width="270" height="36" as="geometry"/>
                 </mxCell>
                 <mxCell id="zone-view" value="&lt;b&gt;VIEW&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=14;fontStyle=1;align=center;spacingLeft=10;spacingTop=6;" parent="1" vertex="1">
                     <mxGeometry x="450" y="100" width="1120" height="900" as="geometry"/>
@@ -65,7 +65,7 @@
                     <mxGeometry y="98" width="320" height="62" as="geometry"/>
                 </mxCell>
                 <mxCell id="v-cat" value="&lt;i&gt;CategoryView&lt;/i&gt;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e8efff;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="950" y="140" width="310" height="160" as="geometry"/>
+                    <mxGeometry x="1030" y="140" width="310" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="v-cat-a" value="# root : SplitPane&#xa;# demos : VBox&#xa;# titreInfo : Label&#xa;# zoneInfo : TextArea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;whiteSpace=wrap;html=1;fontSize=11;" parent="v-cat" vertex="1">
                     <mxGeometry y="26" width="310" height="60" as="geometry"/>
@@ -100,7 +100,7 @@
                 <mxCell id="v-junction" value="" style="ellipse;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1102" y="346" width="6" height="6" as="geometry"/>
                 </mxCell>
-                <mxCell id="h-trunk" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;" parent="1" source="v-junction" target="v-cat" edge="1">
+                <mxCell id="h-trunk" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=1.5;" parent="1" source="v-junction" target="v-cat-m" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="h-bout" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v-bout" target="v-junction" edge="1">
@@ -153,7 +153,12 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="cp1" value="1..*" style="endArrow=diamondThin;endFill=1;endSize=14;startArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v-cat" target="v-main" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="-0.8182" y="10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1020" y="220"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="note-view" value="&lt;font style=&quot;font-size:10px;&quot;&gt;&lt;b&gt;Note :&lt;/b&gt; chaque sous-classe construit ses propres demonstrations de composants JavaFX.&#xa;Pour la liste des composants : &lt;b&gt;openjfx.io / docs&lt;/b&gt;&lt;/font&gt;" style="shape=note;size=14;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="480" y="460" width="660" height="50" as="geometry"/>
@@ -264,25 +269,56 @@
                 <mxCell id="ext-app" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cls-main" target="cls-app" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ma-mod" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cls-main" target="m-cat" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ma-mod" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cls-main" target="m-cat-m" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="460" y="760"/>
+                            <mxPoint x="460" y="279"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="ma-view" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cls-main" target="v-main" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ma-view" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cls-main" target="v-main" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1010" y="640"/>
+                            <mxPoint x="470" y="640"/>
+                            <mxPoint x="470" y="330"/>
+                            <mxPoint x="760" y="330"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="ma-ctrl" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cls-main" target="c-main" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ma-ctrl" value="&amp;lt;&amp;lt;cree&amp;gt;&amp;gt;" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cls-main" target="c-main-m" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1560" y="760"/>
+                            <mxPoint x="1560" y="270"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="ctrl-mod" value="lit / met a jour" style="endArrow=open;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c-main" target="m-cat" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ctrl-mod" value="lit / met a jour" style="endArrow=open;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="c-main" target="m-cat" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1580" y="215"/>
+                            <mxPoint x="1580" y="80"/>
+                            <mxPoint x="440" y="80"/>
+                            <mxPoint x="440" y="220"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="ctrl-view" value="ecoute / met a jour" style="endArrow=open;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c-main" target="v-main" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="ctrl-view" value="ecoute / met a jour" style="endArrow=open;html=1;fontSize=10;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="c-main" target="v-main" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1730" y="110"/>
+                            <mxPoint x="760" y="110"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="comp1" value="*" style="endArrow=diamondThin;endFill=1;endSize=14;startArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="m-info" target="m-cat" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="comp1" value="*" style="endArrow=diamondThin;endFill=1;endSize=14;startArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.206;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="m-info" target="m-cat-m" edge="1">
+                    <mxGeometry x="-0.7501" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="comp2" value="utilise" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="m-cat-type" target="m-cat" edge="1">
+                <mxCell id="comp2" value="utilise" style="endArrow=open;dashed=1;html=1;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="m-cat-type" target="m-cat-m" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="leg-title" value="&lt;b&gt;Legende UML&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacingLeft=6;rounded=1;" parent="1" vertex="1">
